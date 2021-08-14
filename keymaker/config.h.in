@@ -1,0 +1,2 @@
+#cmakedefine WIN32_ENV
+#cmakedefine LINUX_ENV
