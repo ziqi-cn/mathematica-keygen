@@ -11,7 +11,7 @@ int main()
 	int ver = 12;
 	int hash = 0;
 
-	printf("Input Version of Mathematica(11|12): ");
+	printf("Input Version of Mathematica(11|12|13): ");
 	if (scanf("%d", &ver) != 1)
 	{
 		printf("Wrong Input!\n");
@@ -25,6 +25,9 @@ int main()
 		break;
 	case 12:
 		hash = HASH12[0];
+		break;
+	case 13:
+		hash = HASH13[0];
 		break;
 	default:
 		printf("Unsupport Version!\n");

@@ -1,3 +1,4 @@
 
 *.exe
 keymaker/.vscode/*
+keymaker/build/*
